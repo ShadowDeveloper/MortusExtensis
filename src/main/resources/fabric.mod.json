@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "mortus",
+  "version": "${version}",
+
+  "name": "Mortus Extensis",
+  "description": "Corpses and the revival book along with other things from the lore of the Aftermath SMP",
+  "authors": [
+    "ShadowDeveloper, Inf1nity_Z3r0"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/Inf1nity-Z3r0/MortusExtensis/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Inf1nityZ3r0.MortusExtensis.MortusExtensis"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "geckolib": ">=4.2"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
